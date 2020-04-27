@@ -1,2 +1,2 @@
 # DotNetProjects
-This repo includes the projects that I created in a very short span of time to help my business users/customers
+This repo includes simple automation projects that I developed in a very short span of time to help with a business or IT process.
