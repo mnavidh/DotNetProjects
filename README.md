@@ -1,2 +1,2 @@
 # DotNetProjects
-This repo includes simple automation projects that I developed in a very short span of time to help with a business or IT process.
+This repo includes simple .NET projects that I had to develop quickly (less than a hour) to support a business or IT process and save manual effort/time.
