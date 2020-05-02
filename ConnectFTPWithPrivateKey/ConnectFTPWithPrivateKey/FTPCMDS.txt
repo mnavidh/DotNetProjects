@@ -1,0 +1,5 @@
+lcd "D:\download"
+mget TKM_HAWAII2_20121219_001117*
+close
+bye
+exit

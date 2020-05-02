@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="wbat-poc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="poc">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="user-name" type="xs:unsignedShort" />
+              <xs:element name="password" type="xs:unsignedShort" />
+              <xs:element name="job-title" type="xs:string" />
+              <xs:element name="employee-number" type="xs:unsignedShort" />
+              <xs:element name="first-name" type="xs:string" />
+              <xs:element name="last-name" type="xs:string" />
+              <xs:element minOccurs="0" name="middle-initial" type="xs:string" />
+              <xs:element minOccurs="0" name="suffix" type="xs:string" />
+              <xs:element name="address" type="xs:string" />
+              <xs:element name="city" type="xs:string" />
+              <xs:element name="state" type="xs:string" />
+              <xs:element minOccurs="0" name="zip-code" type="xs:string" />
+              <xs:element name="country" type="xs:string" />
+              <xs:element minOccurs="0" name="email-address" type="xs:string" />
+              <xs:element minOccurs="0" name="work-phone-number" type="xs:string" />
+              <xs:element minOccurs="0" name="mobile-number" type="xs:string" />
+              <xs:element minOccurs="0" name="home-phone-number" type="xs:unsignedLong" />
+              <xs:element name="access-privilege-list">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="access-privilege1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="employee-group1" type="xs:string" />
+                          <xs:element name="access-group1" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="access-privilege2">
+                      <xs:complexType>
+                        <xs:sequence minOccurs="0">
+                          <xs:element name="employee-group2" type="xs:string" />
+                          <xs:element name="access-group2" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

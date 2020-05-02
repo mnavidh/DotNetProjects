@@ -1,0 +1,15 @@
+10/18/2012 3:37:41 PM - Checking for file in FTP failed with below error<br /><br /> <b>General Exception</b> - System.Net.WebException: The remote server returned an error: (530) Not logged in.
+   at FTPFileDownload.FTPProcess.CheckFileInFTP(FTPDetail ftp) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Components\FTPProcess.cs:line 45
+   at FTPFileDownload.Program.Main(String[] args) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Program.cs:line 30<br /><br /><b>Stack Trace</b> -    at FTPFileDownload.FTPProcess.CheckFileInFTP(FTPDetail ftp) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Components\FTPProcess.cs:line 45
+   at FTPFileDownload.Program.Main(String[] args) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Program.cs:line 30
+
+10/18/2012 3:37:50 PM - Checking for file in FTP failed with below error<br /><br /> <b>General Exception</b> - System.Net.WebException: The remote server returned an error: (530) Not logged in.
+   at FTPFileDownload.FTPProcess.CheckFileInFTP(FTPDetail ftp) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Components\FTPProcess.cs:line 45
+   at FTPFileDownload.Program.Main(String[] args) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Program.cs:line 30<br /><br /><b>Stack Trace</b> -    at FTPFileDownload.FTPProcess.CheckFileInFTP(FTPDetail ftp) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Components\FTPProcess.cs:line 45
+   at FTPFileDownload.Program.Main(String[] args) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Program.cs:line 30
+
+10/18/2012 3:41:22 PM - Checking for file in FTP failed with below error<br /><br /> <b>General Exception</b> - System.Net.WebException: The remote server returned an error: (530) Not logged in.
+   at FTPFileDownload.FTPProcess.CheckFileInFTP(FTPDetail ftp) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Components\FTPProcess.cs:line 45
+   at FTPFileDownload.Program.Main(String[] args) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Program.cs:line 30<br /><br /><b>Stack Trace</b> -    at FTPFileDownload.FTPProcess.CheckFileInFTP(FTPDetail ftp) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Components\FTPProcess.cs:line 45
+   at FTPFileDownload.Program.Main(String[] args) in D:\Sample Projects\FTPFileDownload\FTPFileDownload\Program.cs:line 30
+
