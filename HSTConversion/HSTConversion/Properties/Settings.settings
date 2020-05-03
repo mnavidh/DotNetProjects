@@ -1,9 +1,0 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HSTConversion.Properties" GeneratedClassName="Settings">
-  <Profiles />
-  <Settings>
-    <Setting Name="HSTConversion_AccessSabreWebService_AccessSabreWebService" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://haw00009/SecureSabreWebservice/SecureSabreWebservice/AccessSabreWebService.asmx</Value>
-    </Setting>
-  </Settings>
-</SettingsFile>

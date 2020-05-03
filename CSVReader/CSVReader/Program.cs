@@ -17,9 +17,9 @@ namespace CSVReader
 
             List<ResultMap> actl = new List<ResultMap>();
 
-            string[] linesChanges = File.ReadAllLines(@"C:\Users\mohamed_navidh\Desktop\Upload.csv");
+            string[] linesChanges = File.ReadAllLines(@"C:\Upload.csv");
 
-            string[] linesActual = File.ReadAllLines(@"C:\Users\mohamed_navidh\Desktop\Actual.csv");
+            string[] linesActual = File.ReadAllLines(@"C:\Actual.csv");
 
             foreach (string line in linesChanges)
             {

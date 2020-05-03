@@ -15,7 +15,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             SqlConnection con = null;
-            string constr = "Integrated Security=SSPI;" + "Initial Catalog=Hwnmiles;" + "Data Source=HAD00017;";
+            string constr = "";
             SqlCommand command;
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataSet ds1 = new DataSet();

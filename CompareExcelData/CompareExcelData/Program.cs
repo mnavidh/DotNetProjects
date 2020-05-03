@@ -14,8 +14,8 @@ namespace CompareExcelData
         {
             SqlConnection con1 = null;
             SqlConnection con2 = null;
-            string constr1 = "Integrated Security=SSPI;" + "Initial Catalog=Hwnmiles;" + "Data Source=HAD00017;";
-            string constr2 = "user id=halwebguest;password=asook!03;initial catalog=PNRTrack;data source=10.15.2.78;";
+            string constr1 = "";
+            string constr2 = "";
             SqlCommand command1;
             SqlCommand command2;
             SqlDataAdapter adapter1 = new SqlDataAdapter();
